@@ -9,7 +9,8 @@ import '../intro/Welcome.css'
 
 const Welcome = () => {
   return (
-    <Carousel controls={false} 
+    <div id="home"> 
+       <Carousel controls={false} 
               interval={2000}
               pause={false}>
         <Carousel.Item>
@@ -28,6 +29,8 @@ const Welcome = () => {
                  alt="Third slide"/>
         </Carousel.Item>
     </Carousel>
+  </div>
+
   )
 }
 
