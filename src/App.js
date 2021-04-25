@@ -6,13 +6,15 @@ import Title from './components/title/Title';
 import Scrolldown from './components/scrolldown/Scrolldown';
 //Pages
 import AboutMe from './pages/about/AboutMe';
+import TechStack from './pages/skills/TechStack';
 //Parallax effect
 import {Parallax} from 'react-parallax';
 //Animations
 import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 //Parallax Image
 import ParallaxImage from './assets/images/parallax/parallax.jpg';
-//Bootstrap components
+//React Bootstrap components
 import Container from 'react-bootstrap/Container'
 
 
@@ -24,20 +26,21 @@ const App =() =>{
       <Title/>
       <Scrolldown/>
       {/** Pages */}
-      {/* <div> */}
-        <Parallax blur={{min:-30, max:30}}
+      <Parallax blur={{min:-30, max:30}}
             bgImage={ParallaxImage}
             bgImageAlt='Parallax Image'
             strength={-100}>
-              {/* <div> */}
-                <Container className='container-box rounded'>
-                  <Fade duration={500}>
-                    <AboutMe/>
-                  </Fade>
-               </Container>
-              {/* </div> */}
-        </Parallax>
-      {/* </div> */}
+            <Container className='container-box rounded'>
+              <Fade duration={500}>
+                <AboutMe/>
+              </Fade>
+            </Container>
+      </Parallax>
+      <Container className="container-box rounded">
+        <Slide bottom duration={1000}>
+          <TechStack/>
+        </Slide>
+      </Container>
       
     </div>
   );

@@ -18,7 +18,7 @@ const AboutMe = () => {
     // }
   return (
     // <div>
-        <div className="about"  id="aboutme">
+        <div className="about" id="aboutme">
         <h1 className='pt-3 text-center font-details pb-3'>ABOUT ME</h1>
       <Container>
           <Row className='pt-3 pb-5 align-items-center'>
@@ -30,7 +30,7 @@ const AboutMe = () => {
                            thumbnail/>
                   </Row>
               </Col>
-              <Col xs={12} md={6}>
+              <Col xs={12} lg={6}>
                   <Row className='align-items-start p-2 my-details rounded'>
                       Ola!!!
                     <br/>

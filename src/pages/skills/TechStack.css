@@ -1,0 +1,19 @@
+.techstack{
+    background-color: transparent;
+    font-size: 1.1em;
+}
+.font-details {
+    font-size: 3em;
+    font-weight: 500;
+    color: #ff6600;
+}
+.focus{
+    transition: transform 0.3s;
+}
+.focus:hover{
+    transform: scale(1.06);
+}
+.card-title{
+    font-size: 1.5em;
+    font-weight: 500;
+}
