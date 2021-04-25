@@ -7,6 +7,7 @@ import Scrolldown from './components/scrolldown/Scrolldown';
 //Pages
 import AboutMe from './pages/about/AboutMe';
 import TechStack from './pages/skills/TechStack';
+import Experience from './pages/experience/Experience';
 //Parallax effect
 import {Parallax} from 'react-parallax';
 //Animations
@@ -40,6 +41,11 @@ const App =() =>{
         <Slide bottom duration={1000}>
           <TechStack/>
         </Slide>
+      </Container>
+      <Container className="container-box rounded">
+        <Fade duration={1000}>
+          <Experience/>
+        </Fade>
       </Container>
       
     </div>
