@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+//React Bootstrap components
+import Button from 'react-bootstrap/Button';
 
 const MyScroll = styled.div`
     position: relative;
@@ -11,6 +13,7 @@ const MyScroll = styled.div`
     background-color: transparent;
     font-weight: bold;
     text-shadow: 1px 1px #ffffff;
+   
 
     .turn{
         cursor: pointer;
@@ -22,7 +25,11 @@ const Scrolldown = () => {
   return (
     <MyScroll>
       <div className="turn">
-          <span> &gt;</span>
+        <Button variant="outline-dark">
+          <span>
+            <a href='#aboutme'>&gt;&gt;&gt;</a>
+          </span>
+        </Button>
       </div>
     </MyScroll>
   )

@@ -58,16 +58,6 @@ const AboutMe = () => {
                                 <Button className="m-2" variant="outline-primary">Want to connect?</Button>
                             </a>
                          </div>
-                         {/* <div>
-                             <a href="https://github.com/sailakshmy" target="_blank" rel="noopener noreferrer">
-                                 <Button className="m-2" variant="outline-dark">Github</Button>
-                             </a>
-                         </div>
-                         <div>
-                             <a href="https://www.linkedin.com/in/sai-lakshmy/" target="_blank" rel="noopener noreferrer">
-                                 <Button className="m-2" variant="outline-info">LinkedIn</Button>
-                             </a>
-                         </div> */}
                          <div>
                          <a href={MyResume} download="SaiLakshmyResume" target='_blank' rel="noreferrer">
                              <Button className="m-2" variant="outline-success">Want a copy of my resume?</Button>

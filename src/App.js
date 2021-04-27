@@ -9,6 +9,7 @@ import AboutMe from './pages/about/AboutMe';
 import TechStack from './pages/skills/TechStack';
 import Experience from './pages/experience/Experience';
 import Portfolio from './pages/portfolio/Portfolio';
+import Contact from './pages/contact/Contact';
 //Parallax effect
 import {Parallax} from 'react-parallax';
 //Animations
@@ -17,7 +18,10 @@ import Slide from 'react-reveal/Slide';
 //Parallax Image
 import ParallaxImage from './assets/images/parallax/parallax.jpg';
 //React Bootstrap components
-import Container from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container';
+//Particles effect
+// import Particles from 'react-particles-js';
+// import {particleOptions} from './components/particles/ParticleOptions';
 
 
 const App =() =>{
@@ -44,7 +48,7 @@ const App =() =>{
         </Slide>
       </Container>
       <Container className="container-box rounded">
-        <Fade duration={1000}>
+        <Fade duration={500}>
           <Experience/>
         </Fade>
       </Container>
@@ -52,6 +56,11 @@ const App =() =>{
         <Slide bottom duration={1000}>
           <Portfolio/>
         </Slide>
+      </Container>
+      <Container className="container-box rounded">
+        <Fade duration={500}>
+          <Contact/>
+        </Fade>
       </Container>
       
     </div>

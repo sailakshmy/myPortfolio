@@ -3,7 +3,6 @@ import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
-import CardDeck from 'react-bootstrap/CardDeck';
 //Tilt package
 import Tilt from 'react-tilt';
 //Styles
@@ -21,7 +20,7 @@ const Experience = () => {
          
               {Companies.map((company,index)=>(
                   <Tilt options={{max:25}}>
-                  <Card key={index}>
+                  <Card key={index}  bg="dark" text="white">
                       <Card.Header as="h3" className="d-flex justify-content-center flex-wrap">
                           {company.companyName}
                       </Card.Header>
