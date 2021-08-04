@@ -3,7 +3,17 @@ import ProjectPlanner from '../../assets/images/projects/ProjectPlanner.PNG';
 import QuizApp from '../../assets/images/projects/QuizApp.PNG';
 import WeatherApp from '../../assets/images/projects/WeatherApp.PNG';
 import TicTacToe from '../../assets/images/projects/TicTacToe.PNG';
+import TaskOrganizer from '../../assets/images/projects/TaskOrganizer.PNG';
 export const projects=[
+    {
+        date:"27/06/2021",
+        title:"Sheldon's Task Organizer",
+        description:"This is a web application that helps users track their tasks and organize them. The user will be able to  edit, delete and reorganize their tasks using drag and drop",
+        technology: "React, React Hooks, Firebase, Bootstrap",
+        image: TaskOrganizer,
+        demo:"https://sheldon-s-task-organizer.web.app/",
+        sourcecode:" https://github.com/sailakshmy/taskOrganizerTool",  
+    },
     {
         date:"10/12/2020",
         title:"Groot Quiz App",
