@@ -139,6 +139,37 @@ const Portfolio = () => {
                         </UrlButton>
                     </div>
                 </ImageEvent>
+                <ImageEvent date={projects[4].date} 
+                            className="text-center" 
+                            text={projects[4].title}
+                            src={projects[4].image}
+                            alt={projects[4].title}>
+                    <Accordion className="d-flex justify-content-between flex-column mt-1 event-card">
+                        <Card  bg="dark" text="white">
+                            <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordion-main">
+                                Project Details
+                            </Accordion.Toggle>
+                            <Accordion.Collapse eventKey='0' className="text-left">
+                                <Card.Body>
+                                    <strong>Description: </strong>{projects[4].description}
+                                    <br/>
+                                    <strong>Tech Stack:</strong>{projects[4].technology}
+                                    <br/>
+                                </Card.Body>
+                            </Accordion.Collapse>
+                        </Card>
+                    </Accordion>
+                    <div className="d-flex justify-content-between flex-nowrap text-center">
+                        {projects[4].demo && 
+                            <UrlButton href={projects[4].demo} target="_blank" rel="noreferrer">
+                                 See Live
+                            </UrlButton>
+                        }
+                        <UrlButton href={projects[4].sourcecode} target="_blank" rel="noreferrer">
+                            Source Code
+                        </UrlButton>
+                    </div>
+                </ImageEvent>
             </Events>
         </Timeline>
 
