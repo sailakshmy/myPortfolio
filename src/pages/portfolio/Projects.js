@@ -2,9 +2,18 @@
 import ProjectPlanner from '../../assets/images/projects/ProjectPlanner.PNG';
 import QuizApp from '../../assets/images/projects/QuizApp.PNG';
 import WeatherApp from '../../assets/images/projects/WeatherApp.PNG';
-import TicTacToe from '../../assets/images/projects/TicTacToe.PNG';
 import TaskOrganizer from '../../assets/images/projects/TaskOrganizer.PNG';
+import DictionaryApp from '../../assets/images/projects/DictionaryApp.PNG';
 export const projects=[
+    {
+        date:"27/08/2021",
+        title:"Groot's Word Search",
+        description:"This is a progressive web application that allows users to search for a word in a predefined list of languages. The app fetches the results from a Google API.",
+        technology: "React, React Hooks, Material UI, Google API, Axios",
+        image: DictionaryApp,
+        demo:"https://groot-word-searcher.netlify.app/",
+        sourcecode:" https://github.com/sailakshmy/dictionary",  
+    },
     {
         date:"27/06/2021",
         title:"Sheldon's Task Organizer",
@@ -31,14 +40,6 @@ export const projects=[
         image: WeatherApp,
         demo:"https://thorsweatherapp.herokuapp.com/",
         sourcecode:"https://github.com/sailakshmy/thorWeatherApp",  
-    },
-    {
-        date:"29/06/2020",
-        title:"TicTacToe",
-        description:"This is a basic React implementation of TicTacToe where user can reverse their movements and also see the next player and the winner.",
-        technology: "React,TypeScript, React Hooks, PublicAPIs",
-        image: TicTacToe,
-        sourcecode:"https://github.com/sailakshmy/reactProjects/tree/master/tictactoe/tictactoe",  
     },
     {
         date:"26/04/2020",
