@@ -4,7 +4,16 @@ import QuizApp from '../../assets/images/projects/QuizApp.PNG';
 import WeatherApp from '../../assets/images/projects/WeatherApp.PNG';
 import TaskOrganizer from '../../assets/images/projects/TaskOrganizer.PNG';
 import DictionaryApp from '../../assets/images/projects/DictionaryApp.PNG';
+import ImageIdentifier from '../../assets/images/projects/ImageIdentifier.png';
 export const projects=[
+    {
+        date:"12/12/2021",
+        title:"Image Identifier",
+        description:"This is a basic image identifier web application that allows users to upload images from their system. The user can then use Tensor flow models to identify their images.",
+        technology: "React, React Hooks, Tensorflow",
+        image: ImageIdentifier,
+        sourcecode:"https://github.com/sailakshmy/reactImageIdentifier",  
+    },
     {
         date:"27/08/2021",
         title:"Groot's Word Search",
