@@ -5,7 +5,17 @@ import WeatherApp from '../../assets/images/projects/WeatherApp.PNG';
 import TaskOrganizer from '../../assets/images/projects/TaskOrganizer.PNG';
 import DictionaryApp from '../../assets/images/projects/DictionaryApp.PNG';
 import ImageIdentifier from '../../assets/images/projects/ImageIdentifier.png';
+import EDITH from '../../assets/images/projects/E.D.I.T.H.png';
 export const projects=[
+    {
+        date:"19/01/2022",
+        title:"E.D.I.T.H",
+        description:"This is a basic voice assistant web application. The user can use speech recognition and request EDITH to open certain applications such as Google, YouTube, Amazon, Netflix etc, search on Google and Youtube, closed the tabs opened by the same, give weather details, time, battery and network status.",
+        technology: "HTML, CSS, JavaScript, openWeatherAPI, SpeechRecognition",
+        image: EDITH,
+        demo:"hhttps://edith-4947a.web.app/",
+        sourcecode:"https://github.com/sailakshmy/edith",  
+    },
     {
         date:"12/12/2021",
         title:"Image Identifier",
