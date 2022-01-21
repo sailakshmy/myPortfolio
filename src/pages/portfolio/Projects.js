@@ -13,7 +13,7 @@ export const projects=[
         description:"This is a basic voice assistant web application. The user can use speech recognition and request EDITH to open certain applications such as Google, YouTube, Amazon, Netflix etc, search on Google and Youtube, closed the tabs opened by the same, give weather details, time, battery and network status.",
         technology: "HTML, CSS, JavaScript, openWeatherAPI, SpeechRecognition",
         image: EDITH,
-        demo:"hhttps://edith-4947a.web.app/",
+        demo:"https://edith-4947a.web.app/",
         sourcecode:"https://github.com/sailakshmy/edith",  
     },
     {
