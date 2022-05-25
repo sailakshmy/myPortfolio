@@ -6,7 +6,17 @@ import TaskOrganizer from '../../assets/images/projects/TaskOrganizer.PNG';
 import DictionaryApp from '../../assets/images/projects/DictionaryApp.PNG';
 import ImageIdentifier from '../../assets/images/projects/ImageIdentifier.png';
 import EDITH from '../../assets/images/projects/E.D.I.T.H.png';
+import IPLDashboardApp from '../../assets/images/projects/IPLDashboardApp.png';
 export const projects=[
+    {
+        date:"25/05/2022",
+        title:"IPL Dashboard",
+        description:"A dashboard where the user can view the different IPL teams that have played matches between 2008 and 2021. The user can also view the details of all the matches played by a team in a specific year.",
+        technology: "React, React Hooks, Spring Boot, Java Persistence API, AWS Elastic Beanstalk",
+        image: IPLDashboardApp,
+        demo:"http://ipldashboard-env.eba-bbijaju7.us-west-2.elasticbeanstalk.com/",
+        sourcecode:"https://github.com/sailakshmy/iplJavaReact",  
+    },
     {
         date:"19/01/2022",
         title:"E.D.I.T.H",
