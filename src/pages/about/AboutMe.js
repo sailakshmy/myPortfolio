@@ -45,10 +45,8 @@ const AboutMe = () => {
                         <li className="personalDetails"><em>Date of Birth:</em> 01/09/1994</li>
                         <li className="personalDetails"><em>Nationality:</em> Indian</li>
                         <li className="personalDetails"><em>Blood Group:</em> B+</li>
-                        <li className="personalDetails"><em>Permanent Address:</em> 3-697, Sri Sai Darshan, C.N.Puram, Palakkad, Kerala-678005</li>
                     </ul>
                      <ul><h5> A few fun facts about me:</h5>
-                         <li>Although I was born in India, I was brought up abroad.</li>
                          <li>In addition to English, I can speak 4 different Indian languages, namely Hindi,Telugu, Malayalam and Tamil.</li>
                          <li>My hobbies include public speaking,reading, yoga and dancing.</li>
                      </ul>
