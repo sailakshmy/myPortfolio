@@ -1,5 +1,16 @@
 export const Companies=[
     {
+        companyName: "Saviynt",
+        designation:"Software Engineer 3",
+        technology:"React JS, Redux, Redux-Saga, Jest, React-testing Library",
+        duration: "September 06,2021 - Present",
+        jobDescription:[
+            "Revamped the user interface as per customer requirements while aligning with Web accessibility standards.",
+            "Integrated the existing codebase with Unit testing framework using Jest and React Testing Library.",
+            "Incorporated Linting in the existing codebase to increase code quality and reduce coding style issues that helps the new team members onboard easily which in turn increases productivity."
+        ]
+    },
+    {
         companyName: "GlobalLogic",
         designation:"Senior Software Engineer",
         technology:"React JS, Node Js, Typescript, Redux",
