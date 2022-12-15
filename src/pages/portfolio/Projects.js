@@ -58,7 +58,7 @@ export const projects=[
         description:"This is a basic quiz app hosted on Heroku.",
         technology: "React,TypeScript, React Hooks, PublicAPIs, Google Fonts",
         image: QuizApp,
-        demo:"https://groot-quiz-app.herokuapp.com/",
+        // demo:"https://groot-quiz-app.herokuapp.com/",
         sourcecode:"https://github.com/sailakshmy/grootQuizApp",  
     },
     {
@@ -67,7 +67,7 @@ export const projects=[
         description:"This is a weather app that displays weather forecasts based on city name hosted on Heroku.",
         technology: "React,TypeScript, React Hooks, PublicAPIs",
         image: WeatherApp,
-        demo:"https://thorsweatherapp.herokuapp.com/",
+        // demo:"https://thorsweatherapp.herokuapp.com/",
         sourcecode:"https://github.com/sailakshmy/thorWeatherApp",  
     },
     {
