@@ -52,7 +52,7 @@ const AboutMe = () => {
                      </ul>
                      <Col className="d-flex justify-content-center flex-wrap">
                          <div>
-                            <a href='#contact'>
+                            <a href='#contactme'>
                                 <Button className="m-2" variant="outline-primary">Want to connect?</Button>
                             </a>
                          </div>

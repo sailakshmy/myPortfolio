@@ -19,6 +19,8 @@ import Slide from 'react-reveal/Slide';
 import ParallaxImage from './assets/images/parallax/parallax.jpg';
 //React Bootstrap components
 import Container from 'react-bootstrap/Container';
+import { Suspense } from 'react';
+import Loading from './pages/Loading';
 //Particles effect
 // import Particles from 'react-particles-js';
 // import {particleOptions} from './components/particles/ParticleOptions';
@@ -52,11 +54,13 @@ const App =() =>{
           <Experience/>
         </Fade>
       </Container>
+      <Suspense fallback={<Loading/>}>
       <Container className="container-box rounded">
         <Slide bottom duration={1000}>
           <Portfolio/>
         </Slide>
       </Container>
+      </Suspense>
       <Container className="container-box rounded">
         <Fade duration={500}>
           <Contact/>
