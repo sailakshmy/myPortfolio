@@ -21,6 +21,10 @@ export const skills = {
       skillLevel: 60,
     },
     {
+      skillName: "React Native",
+      skillLevel: 50,
+    },
+    {
       skillName: "Tailwind CSS",
       skillLevel: 50,
     },
